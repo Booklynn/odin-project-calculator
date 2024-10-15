@@ -10,7 +10,12 @@
 <body>
     <div class="calculator">
         <div class="screen">
-            <input type="text" id="screen" disabled>
+            <div class="previous-expression">
+                <span id="previous-expression"></span>
+            </div>
+            <div class="output">
+                <span id="output"></span>
+            </div>
         </div>
         <div class="controller">
             <div class="buttons-row">
@@ -19,26 +24,26 @@
                 <button class="operator" value="/">/</button>
             </div>
             <div class="buttons-row">
-                <button class="number" value="7">7</button>
-                <button class="number" value="8">8</button>
-                <button class="number" value="9">9</button>
-                <button class="operator" value="*">*</button>
+                <button class="number">7</button>
+                <button class="number">8</button>
+                <button class="number">9</button>
+                <button class="operator">*</button>
             </div>
             <div class="buttons-row">
-                <button class="number" value="4">4</button>
-                <button class="number" value="5">5</button>
-                <button class="number" value="6">6</button>
-                <button class="operator" value="-">-</button>
+                <button class="number">4</button>
+                <button class="number">5</button>
+                <button class="number">6</button>
+                <button class="operator">-</button>
             </div>
             <div class="buttons-row">
-                <button class="number" value="1">1</button>
-                <button class="number" value="3">2</button>
-                <button class="number" value="3">3</button>
-                <button class="operator" value="+">+</button>
+                <button class="number">1</button>
+                <button class="number">2</button>
+                <button class="number">3</button>
+                <button class="operator">+</button>
             </div>
             <div class="buttons-row">
-                <button class="number" value="0">0</button>
-                <button class="number" value=".">.</button>
+                <button class="number">0</button>
+                <button class="number">.</button>
                 <button class="equal-sign">=</button>
             </div>
         </div>
